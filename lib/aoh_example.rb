@@ -19,7 +19,14 @@ def assembled_aoh
 end
 
 def literal_aoh
-  array.sort
+  array = [
+    DON_G.sort,
+    JOELLE_VD.sort,
+    PAT_M.sort,
+    KATE_G.sort,
+    BRUCE_G.sort,
+  ]
+
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
